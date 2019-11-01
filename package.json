@@ -1,0 +1,31 @@
+{
+  "name": "awesome-cats-telegram-bot",
+  "version": "1.0.0",
+  "description": "Nice bot for serving funny cats gifs and photos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeekyEater/awesome-cats-telegram-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "telegram",
+    "cats"
+  ],
+  "author": "Mango",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PeekyEater/awesome-cats-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/PeekyEater/awesome-cats-telegram-bot#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-telegram-bot-api": "^0.40.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
