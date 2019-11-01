@@ -3,8 +3,9 @@ process.env.NTBA_FIX_319 = 1;
 // Importing packages
 const TelegramBotApi = require("node-telegram-bot-api");
 
-// Importing constants
+// Importing project inner stuff
 const TOKEN = require("../hidden-folder/token");
+const CatApi = require("../services/CatAPI");
 
 // Creating the bot instance.
 const catsBot = new TelegramBotApi(TOKEN, { polling: true });

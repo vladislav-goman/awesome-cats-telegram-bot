@@ -4,8 +4,8 @@ module.exports = class CatAPI {
         this._apiBase = 'https://api.thecatapi.com/v1/';
     }
 
-    static getRandomCatPhoto() {
-
+    getRandomCatPhoto = () => {
+        
     }
 
 }
