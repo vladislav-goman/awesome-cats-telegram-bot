@@ -1,0 +1,13 @@
+{
+    "presets": [
+        ["@babel/preset-env", {
+            "debug": true,
+            "corejs": 3,
+            "useBuiltIns": "usage",
+            "modules": false
+        }]
+    ],
+    "plugins": [
+        "@babel/plugin-proposal-class-properties"
+    ]
+}
