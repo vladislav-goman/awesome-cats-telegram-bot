@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./src/app.js",
+    "start": "nodemon --exec babel-node ./src/app.js",
     "build": "webpack"
   },
   "repository": {
@@ -27,11 +27,12 @@
     "core-js": "^3.3.6",
     "express": "^4.17.1",
     "node-fetch": "^2.6.0",
-    "node-telegram-bot-api": "^0.40.0",
-    "npm": "^6.12.1"
+    "node-telegram-bot-api": "^0.40.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.6.4",
     "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
     "@babel/preset-env": "^7.6.3",
     "babel-loader": "^8.0.6",
